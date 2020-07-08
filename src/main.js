@@ -11,6 +11,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 import components from '@/components'
 
 Vue.use(components)
+
 Vue.config.productionTip = false
 
 new Vue({

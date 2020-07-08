@@ -1,5 +1,6 @@
 import Home from '@/pages/home'
 import Layout from '@/pages/layout'
+import Button from '@/pages/button'
 const routes = [
   {
     path: '/home',
@@ -8,6 +9,10 @@ const routes = [
   {
     path: '/layout',
     component: Layout
+  },
+  {
+    path: '/button',
+    component: Button
   },
   {
     path: '*',
