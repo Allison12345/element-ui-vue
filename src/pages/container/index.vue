@@ -3,12 +3,12 @@
     el-container
       el-aside
         el-menu(:default-openeds="['1', '3']")
-          el-submenu(v-for="(item,index) in submenuList" :key='index' v-bind='item')
+          submenu(v-for="(item,index) in submenuList" :key='index' v-bind='item')
 </template>
 <script>
 import { useComponents } from '@/utils/arr.js'
-import { container, Header, Aside, Main, Footer, Menu } from 'element-ui'
-const componentList = [container, Header, Aside, Main, Footer, Menu]
+import { Container, Header, Aside, Main, Footer, Menu } from 'element-ui'
+const componentList = [Container, Header, Aside, Main, Footer, Menu]
 useComponents(componentList)
 export default {
   name: 'container',

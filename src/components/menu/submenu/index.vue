@@ -1,5 +1,5 @@
 <template lang="pug">
-  el-submenu(:index='groupIndex')
+  el-submenu(:index='`${groupIndex}`' )
     template(slot="title")
       i(:class='{iconClass}') {{menuTitle}}
     menu-item-group(v-for='(item,index) in itemGroup' :key='index' v-bind='item')

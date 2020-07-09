@@ -1,7 +1,7 @@
 <template lang="pug">
   el-menu-item-group
     template(slot='title') {{groupTitle}}
-      menu-item(v-for='(item,index) in items' :key='index' v-bind='item' )
+      menu-item(v-for='(item,key) in items' :key='key' v-bind='item')
 </template>
 <script>
 import { MenuItemGroup } from 'element-ui'

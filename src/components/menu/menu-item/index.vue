@@ -1,5 +1,5 @@
 <template lang="pug">
-  el-menu-item(:index='itemIndex') {{label}}
+  el-menu-item(:index='`${itemIndex}`') {{label}}
 </template>
 <script>
 import { MenuItem } from 'element-ui'
