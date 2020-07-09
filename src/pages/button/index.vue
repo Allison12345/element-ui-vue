@@ -34,11 +34,10 @@
         i.el-icon-arrow-right.el-icon--right 
 </template>
 <script>
-import Vue from 'vue'
-import { Button, Row, Col } from 'element-ui'
-Vue.use(Button)
-Vue.use(Row)
-Vue.use(Col)
+import { Button, ButtonGroup, Row, Col } from 'element-ui'
+import { useComponents } from '@/utils/arr.js'
+const componentList = [Button, ButtonGroup, Row, Col]
+useComponents(componentList)
 export default {
   name: 'my-button'
 }
