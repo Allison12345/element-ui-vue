@@ -6,6 +6,8 @@ import HomePane from './home-pane'
 import MenuItem from './menu/menu-item'
 import MenuItemGroup from './menu/menu-item-group'
 import Submenu from './menu/submenu'
+import Dropdown from './menu/dropdown'
+import MyTable from './menu/my-table'
 
 const components = [
   Page,
@@ -15,7 +17,9 @@ const components = [
   HomePane,
   MenuItem,
   MenuItemGroup,
-  Submenu
+  Submenu,
+  Dropdown,
+  MyTable
 ]
 const install = Vue => {
   if (install.installed) return

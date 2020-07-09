@@ -3,7 +3,7 @@
 </template>
 <script>
 import { MenuItem } from 'element-ui'
-import { useComponents } from '@/utils/arr.js'
+import { useComponents } from '@/utils/arr'
 const componentList = [MenuItem]
 useComponents(componentList)
 export default {
