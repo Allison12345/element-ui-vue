@@ -1,5 +1,5 @@
 <template lang="pug">
-  el-menu-item(:index='`${itemIndex}`') {{label}}
+  el-menu-item(:index='`${itemIndex}`' @click='onClick(label)') {{label}}
 </template>
 <script>
 import { MenuItem } from 'element-ui'
@@ -8,6 +8,11 @@ const componentList = [MenuItem]
 useComponents(componentList)
 export default {
   name: 'menu-item',
-  props: ['itemIndex', 'label']
+  props: ['itemIndex', 'label'],
+  methods: {
+    onClick(label) {
+      this.$emit('onRouteChage', label)
+    }
+  }
 }
 </script>
