@@ -8,6 +8,7 @@ import MenuItemGroup from './menu/menu-item-group'
 import Submenu from './menu/submenu'
 import Dropdown from './menu/dropdown'
 import MyTable from './menu/my-table'
+import MySelect from './select'
 
 const components = [
   Page,
@@ -19,7 +20,8 @@ const components = [
   MenuItemGroup,
   Submenu,
   Dropdown,
-  MyTable
+  MyTable,
+  MySelect
 ]
 const install = Vue => {
   if (install.installed) return
