@@ -57,7 +57,7 @@ const homeList = [
       },
       {
         label: 'select 选择器',
-        path: 'checkbox'
+        path: 'select'
       },
       {
         label: 'cascader 级联选择器',
