@@ -7,6 +7,7 @@ import Checkbox from '@/pages/checkbox'
 import MyInput from '@/pages/my-input'
 import InputNumber from '@/pages/input-number'
 import Select from '@/pages/select'
+import Upload from '@/pages/upload'
 const routes = [
   {
     path: '/home',
@@ -43,6 +44,10 @@ const routes = [
   {
     path: '/select',
     component: Select
+  },
+  {
+    path: '/upload',
+    component: Upload
   },
   {
     path: '*',
