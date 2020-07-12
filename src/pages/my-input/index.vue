@@ -10,7 +10,6 @@
     el-input(placeholder="请输入内容" v-model="input6" )
       template(slot='append') .com
     el-input(placeholder="请输入内容" v-model="input7" )
-      my-select(slot='prepend'  :selectList='selectList')
     el-autocomplete(v-model='input8' :fetch-suggestions="querySearch"  placeholder="请输入内容" :trigger-on-focus="false"  @select="handleSelect")
 </template>
 <script>

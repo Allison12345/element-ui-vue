@@ -6,6 +6,7 @@ import Radio from '@/pages/radio'
 import Checkbox from '@/pages/checkbox'
 import MyInput from '@/pages/my-input'
 import InputNumber from '@/pages/input-number'
+import Select from '@/pages/select'
 const routes = [
   {
     path: '/home',
@@ -38,6 +39,10 @@ const routes = [
   {
     path: '/inputNumber',
     component: InputNumber
+  },
+  {
+    path: '/select',
+    component: Select
   },
   {
     path: '*',
