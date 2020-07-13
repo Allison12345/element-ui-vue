@@ -8,6 +8,7 @@ import MyInput from '@/pages/my-input'
 import InputNumber from '@/pages/input-number'
 import Select from '@/pages/select'
 import Upload from '@/pages/upload'
+import Form from '@/pages/form'
 const routes = [
   {
     path: '/home',
@@ -48,6 +49,10 @@ const routes = [
   {
     path: '/upload',
     component: Upload
+  },
+  {
+    path: '/form',
+    component: Form
   },
   {
     path: '*',
